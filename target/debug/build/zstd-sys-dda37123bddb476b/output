@@ -84,18 +84,18 @@ cargo:warning=cl : Command line warning D9002 : ignoring unknown option '-fvisib
 
 debug.c
 running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/common\\entropy_common.o" "-c" "zstd/lib/common\\entropy_common.c"
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/common\\error_private.o" "-c" "zstd/lib/common\\error_private.c"
 cargo:warning=cl : Command line warning D9002 : ignoring unknown option '-fvisibility=hidden'
 
 entropy_common.c
-running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/common\\error_private.o" "-c" "zstd/lib/common\\error_private.c"
 cargo:warning=cl : Command line warning D9002 : ignoring unknown option '-fvisibility=hidden'
 
 error_private.c
 running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/common\\fse_decompress.o" "-c" "zstd/lib/common\\fse_decompress.c"
 cargo:warning=cl : Command line warning D9002 : ignoring unknown option '-fvisibility=hidden'
 
-fse_decompress.c
 running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/common\\pool.o" "-c" "zstd/lib/common\\pool.c"
+fse_decompress.c
 cargo:warning=cl : Command line warning D9002 : ignoring unknown option '-fvisibility=hidden'
 
 pool.c
@@ -104,49 +104,46 @@ cargo:warning=cl : Command line warning D9002 : ignoring unknown option '-fvisib
 
 threading.c
 running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/common\\zstd_common.o" "-c" "zstd/lib/common\\zstd_common.c"
-cargo:warning=cl : Command line warning D9002 : ignoring unknown option '-fvisibility=hidden'
-
-zstd_common.c
 running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/compress\\fse_compress.o" "-c" "zstd/lib/compress\\fse_compress.c"
-cargo:warning=cl : Command line warning D9002 : ignoring unknown option '-fvisibility=hidden'
-
-fse_compress.c
 running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/compress\\hist.o" "-c" "zstd/lib/compress\\hist.c"
-cargo:warning=cl : Command line warning D9002 : ignoring unknown option '-fvisibility=hidden'
-
-hist.c
 running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/compress\\huf_compress.o" "-c" "zstd/lib/compress\\huf_compress.c"
 cargo:warning=cl : Command line warning D9002 : ignoring unknown option '-fvisibility=hidden'
 
-huf_compress.c
+cargo:warning=cl : Command line warning D9002 : ignoring unknown option '-fvisibility=hidden'cl : Command line warning D9002 : 
+
+cargo:warning=ignoring unknown option '-fvisibility=hidden'
+
 running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/compress\\zstd_compress.o" "-c" "zstd/lib/compress\\zstd_compress.c"
+zstd_common.c
+fse_compress.c
+hist.c
 cargo:warning=cl : Command line warning D9002 : ignoring unknown option '-fvisibility=hidden'
 
 running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/compress\\zstd_compress_literals.o" "-c" "zstd/lib/compress\\zstd_compress_literals.c"
-zstd_compress.c
-running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/compress\\zstd_compress_sequences.o" "-c" "zstd/lib/compress\\zstd_compress_sequences.c"
 cargo:warning=cl : Command line warning D9002 : ignoring unknown option '-fvisibility=hidden'
 
+zstd_compress.c
+huf_compress.c
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/compress\\zstd_compress_sequences.o" "-c" "zstd/lib/compress\\zstd_compress_sequences.c"
+cargo:warning=cl : Command line warning D9002 : cl : Command line warning D9002 : ignoring unknown option '-fvisibility=hidden'ignoring unknown option '-fvisibility=hidden'
+
+cargo:warning=
+
+zstd_compress_sequences.c
 zstd_compress_literals.c
 running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/compress\\zstd_compress_superblock.o" "-c" "zstd/lib/compress\\zstd_compress_superblock.c"
 cargo:warning=cl : Command line warning D9002 : ignoring unknown option '-fvisibility=hidden'
 
 running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/compress\\zstd_double_fast.o" "-c" "zstd/lib/compress\\zstd_double_fast.c"
-zstd_compress_sequences.c
-cargo:warning=cl : Command line warning D9002 : ignoring unknown option '-fvisibility=hidden'
-
 zstd_compress_superblock.c
 cargo:warning=cl : Command line warning D9002 : ignoring unknown option '-fvisibility=hidden'
 
-running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/compress\\zstd_fast.o" "-c" "zstd/lib/compress\\zstd_fast.c"
 zstd_double_fast.c
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/compress\\zstd_fast.o" "-c" "zstd/lib/compress\\zstd_fast.c"
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/compress\\zstd_lazy.o" "-c" "zstd/lib/compress\\zstd_lazy.c"
 cargo:warning=cl : Command line warning D9002 : ignoring unknown option '-fvisibility=hidden'
 
 zstd_fast.c
-running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/compress\\zstd_lazy.o" "-c" "zstd/lib/compress\\zstd_lazy.c"
-running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/compress\\zstd_ldm.o" "-c" "zstd/lib/compress\\zstd_ldm.c"
-cargo:warning=cl : Command line warning D9002 : ignoring unknown option '-fvisibility=hidden'
-
 exit code: 0
 exit code: 0
 exit code: 0
@@ -156,55 +153,38 @@ exit code: 0
 exit code: 0
 exit code: 0
 exit code: 0
-exit code: running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/compress\\zstd_opt.o" "-c" "zstd/lib/compress\\zstd_opt.c"
-zstd_lazy.c
+exit code: running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/compress\\zstd_ldm.o" "-c" "zstd/lib/compress\\zstd_ldm.c"
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/compress\\zstd_opt.o" "-c" "zstd/lib/compress\\zstd_opt.c"
 running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/compress\\zstdmt_compress.o" "-c" "zstd/lib/compress\\zstdmt_compress.c"
-cargo:warning=cl : Command line warning D9002 : ignoring unknown option '-fvisibility=hidden'cl : Command line warning D9002 : ignoring unknown option '-fvisibility=hidden'
+cargo:warning=cl : Command line warning D9002 : cl : Command line warning D9002 : ignoring unknown option '-fvisibility=hidden'ignoring unknown option '-fvisibility=hidden'
+
+cargo:warning=
 
 cargo:warning=cl : Command line warning D9002 : ignoring unknown option '-fvisibility=hidden'
 
 zstd_opt.c
+zstd_lazy.c
+zstd_ldm.c
 running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/decompress\\huf_decompress.o" "-c" "zstd/lib/decompress\\huf_decompress.c"
-cargo:warning=
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/decompress\\zstd_ddict.o" "-c" "zstd/lib/decompress\\zstd_ddict.c"
+cargo:warning=cl : Command line warning D9002 : ignoring unknown option '-fvisibility=hidden'
 
 zstdmt_compress.c
 cargo:warning=cl : Command line warning D9002 : ignoring unknown option '-fvisibility=hidden'
 
-zstd_ldm.c
-huf_decompress.c
-running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/decompress\\zstd_ddict.o" "-c" "zstd/lib/decompress\\zstd_ddict.c"
 cargo:warning=cl : Command line warning D9002 : ignoring unknown option '-fvisibility=hidden'
 
+huf_decompress.c
 zstd_ddict.c
 running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/decompress\\zstd_decompress.o" "-c" "zstd/lib/decompress\\zstd_decompress.c"
 running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/decompress\\zstd_decompress_block.o" "-c" "zstd/lib/decompress\\zstd_decompress_block.c"
-running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/dictBuilder\\cover.o" "-c" "zstd/lib/dictBuilder\\cover.c"
-running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/dictBuilder\\divsufsort.o" "-c" "zstd/lib/dictBuilder\\divsufsort.c"
-running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/dictBuilder\\fastcover.o" "-c" "zstd/lib/dictBuilder\\fastcover.c"
-cargo:warning=cl : Command line warning D9002 : ignoring unknown option '-fvisibility=hidden'
-
-zstd_decompress.c
-cargo:warning=cl : Command line warning D9002 : ignoring unknown option '-fvisibility=hidden'
-
-running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/dictBuilder\\zdict.o" "-c" "zstd/lib/dictBuilder\\zdict.c"
-cover.c
-cargo:warning=cl : Command line warning D9002 : ignoring unknown option '-fvisibility=hidden'
-
 cargo:warning=cl : Command line warning D9002 : ignoring unknown option '-fvisibility=hidden'
 
 zstd_decompress_block.c
-fastcover.c
-running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/legacy\\zstd_v01.o" "-c" "zstd/lib/legacy\\zstd_v01.c"
-cargo:warning=cl : Command line warning D9002 : cl : Command line warning D9002 : ignoring unknown option '-fvisibility=hidden'
-
-cargo:warning=ignoring unknown option '-fvisibility=hidden'
-
-zdict.c
-divsufsort.c
 cargo:warning=cl : Command line warning D9002 : ignoring unknown option '-fvisibility=hidden'
 
-zstd_v01.c
-running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/legacy\\zstd_v02.o" "-c" "zstd/lib/legacy\\zstd_v02.c"
+zstd_decompress.c
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/dictBuilder\\cover.o" "-c" "zstd/lib/dictBuilder\\cover.c"
 0
 exit code: 0
 exit code: 0
@@ -215,39 +195,59 @@ exit code: 0
 exit code: 0
 exit code: 0
 exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/dictBuilder\\divsufsort.o" "-c" "zstd/lib/dictBuilder\\divsufsort.c"
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/dictBuilder\\fastcover.o" "-c" "zstd/lib/dictBuilder\\fastcover.c"
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/dictBuilder\\zdict.o" "-c" "zstd/lib/dictBuilder\\zdict.c"
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/legacy\\zstd_v01.o" "-c" "zstd/lib/legacy\\zstd_v01.c"
+cargo:warning=cl : Command line warning D9002 : ignoring unknown option '-fvisibility=hidden'
+
+cargo:warning=cl : Command line warning D9002 : cl : Command line warning D9002 : ignoring unknown option '-fvisibility=hidden'ignoring unknown option '-fvisibility=hidden'
+
+cargo:warning=
+
+cover.c
+divsufsort.c
+fastcover.c
+cargo:warning=cl : Command line warning D9002 : ignoring unknown option '-fvisibility=hidden'
+
+cargo:warning=cl : Command line warning D9002 : ignoring unknown option '-fvisibility=hidden'
+
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/legacy\\zstd_v02.o" "-c" "zstd/lib/legacy\\zstd_v02.c"
 running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/legacy\\zstd_v03.o" "-c" "zstd/lib/legacy\\zstd_v03.c"
+zdict.c
+zstd_v01.c
+cargo:warning=cl : Command line warning D9002 : ignoring unknown option '-fvisibility=hidden'
+
+zstd_v02.c
+cargo:warning=cl : Command line warning D9002 : ignoring unknown option '-fvisibility=hidden'
+
+zstd_v03.c
 running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/legacy\\zstd_v04.o" "-c" "zstd/lib/legacy\\zstd_v04.c"
 running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/legacy\\zstd_v05.o" "-c" "zstd/lib/legacy\\zstd_v05.c"
 cargo:warning=cl : Command line warning D9002 : ignoring unknown option '-fvisibility=hidden'
 
-running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/legacy\\zstd_v06.o" "-c" "zstd/lib/legacy\\zstd_v06.c"
-zstd_v02.c
 cargo:warning=cl : Command line warning D9002 : ignoring unknown option '-fvisibility=hidden'
 
-cargo:warning=cl : Command line warning D9002 : ignoring unknown option '-fvisibility=hidden'
-
-zstd_v03.c
 zstd_v04.c
-cargo:warning=cl : Command line warning D9002 : ignoring unknown option '-fvisibility=hidden'
-
-cargo:warning=cl : Command line warning D9002 : ignoring unknown option '-fvisibility=hidden'
-
 zstd_v05.c
-zstd_v06.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/legacy\\zstd_v06.o" "-c" "zstd/lib/legacy\\zstd_v06.c"
 running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-FoC:\\Users\\Vertex Studio\\Desktop\\Nancy NAS\\API-REST\\actix\\apiplay\\target\\debug\\build\\zstd-sys-dda37123bddb476b\\out\\zstd/lib/legacy\\zstd_v07.o" "-c" "zstd/lib/legacy\\zstd_v07.c"
 cargo:warning=cl : Command line warning D9002 : ignoring unknown option '-fvisibility=hidden'
 
+cargo:warning=cl : Command line warning D9002 : ignoring unknown option '-fvisibility=hidden'
+
 zstd_v07.c
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
+zstd_v06.c
+0
 exit code: 0
 exit code: 0
 exit code: 0

@@ -1,12 +1,8 @@
-use actix_web::{get, web, Responder};
-use serde::Deserialize;
+use actix_web::{delete, get, post, web, Responder};
 use super::super::domain::Playlist; //super se refiere al módulo padre, al utilizarlo dos veces se van dos niveles arriba.
+use super::dtos::{Info, CreatePlaylist};
 
-#[derive(Deserialize)]
-struct Info {
-    id:usize
-}
-//* */
+//*Función GET */
 #[get("/playlist")] // indica que la funcion decorada con esto manejará solicitudes HTTP GET en la ruta "/playlist"
 async fn playlist() -> impl Responder {
     let mut playlists: Vec<Playlist> = vec![]; //variable mutante del tipo vector de Playlists que estrá vacío.
@@ -26,7 +22,7 @@ async fn playlist() -> impl Responder {
     //Nos permite convertir estructuras que ya tenemos dentro de rust a una estructura serializada o forma de texto
     web::Json(playlists)
 }
-
+//*Función get_id */
 #[get("/playlist/{id}")] // indica que la funcion decorada con esto manejará solicitudes HTTP GET en la ruta "/playlist/{id}" donde se le solicita un id para ver los datos de un objeto en especifico.
 async fn get_playlist(info: web::Path<Info>) -> impl Responder{
     let playlists: Vec<Playlist> = vec![Playlist{
@@ -42,8 +38,44 @@ async fn get_playlist(info: web::Path<Info>) -> impl Responder{
     web::Json(p1) //imprime
 }
 
+//*Funcion POST */
+#[post("/playlist")]
+async fn create_playlist(dto: web::Json<CreatePlaylist>) -> impl Responder {
+    let p1: Playlist = Playlist{
+        name: dto.name.clone(),
+        songs: vec![]
+    };
+
+    web::Json(p1)
+}
+
+//*Función DELETE */
+#[delete("/playlist/{id}")]
+async fn delete_playlist(info: web::Path<Info>) -> impl Responder{
+    let mut playlists: Vec<Playlist> = vec![
+        Playlist{
+            name: "Lisseth 2022".to_string(),
+            songs: vec![]
+        },
+        Playlist{
+            name: "Nancy 2023".to_string(),
+            songs: vec![]
+        },
+        Playlist{
+            name: "Casi borrado 2023".to_string(),
+            songs: vec![]
+        }
+    ];
+
+    let deleted_playlist = playlists.remove(info.id);
+    web::Json(deleted_playlist)
+}
+    
+
 pub fn config(cfg: &mut web::ServiceConfig){  // función publica llamada config, con la variable cfg con modificador &mut que significa que es la referencia es mutable (puede modificar el objeto referenciado) y el tipo de objeto al que cfg hace referencia. "ServiceConfig" es un tipo proporcionado por la biblioteca que se utiliza para configurar servicios y rutas en la app web.
 
     cfg.service(playlist); //service es un método de ServiceConfig que se utiliza para agregar un servicio al conjunto de servicios que serán manejados por la app web.
     cfg.service(get_playlist);
+    cfg.service(create_playlist);
+    cfg.service(delete_playlist);
 }
