@@ -2,7 +2,7 @@ use actix_web::{delete, get, post, web, Responder};
 use super::super::domain::Playlist; //super se refiere al módulo padre, al utilizarlo dos veces se van dos niveles arriba.
 use super::dtos::{Info, CreatePlaylist};
 
-//*Función GET */
+//*Función GET All*/
 #[get("/playlist")] // indica que la funcion decorada con esto manejará solicitudes HTTP GET en la ruta "/playlist"
 async fn playlist() -> impl Responder {
     let mut playlists: Vec<Playlist> = vec![]; //variable mutante del tipo vector de Playlists que estrá vacío.
@@ -70,7 +70,9 @@ async fn delete_playlist(info: web::Path<Info>) -> impl Responder{
     let deleted_playlist = playlists.remove(info.id);
     web::Json(deleted_playlist)
 }
-    
+
+//*Función Update */
+
 
 pub fn config(cfg: &mut web::ServiceConfig){  // función publica llamada config, con la variable cfg con modificador &mut que significa que es la referencia es mutable (puede modificar el objeto referenciado) y el tipo de objeto al que cfg hace referencia. "ServiceConfig" es un tipo proporcionado por la biblioteca que se utiliza para configurar servicios y rutas en la app web.
 

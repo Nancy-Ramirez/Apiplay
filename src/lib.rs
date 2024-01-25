@@ -1,5 +1,3 @@
 // librerias a utilizar
-
-pub mod infra;
 pub mod config;
 pub mod modules;
