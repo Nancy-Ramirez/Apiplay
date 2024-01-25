@@ -1,0 +1,10 @@
+C:\Users\Vertex Studio\Desktop\Nancy NAS\API-REST\actix\apiplay\target\debug\deps\libactix_rt-d62d9ed7727c45f3.rmeta: C:\Users\Vertex\ Studio\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-rt-2.9.0\src\lib.rs C:\Users\Vertex\ Studio\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-rt-2.9.0\src\arbiter.rs C:\Users\Vertex\ Studio\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-rt-2.9.0\src\runtime.rs C:\Users\Vertex\ Studio\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-rt-2.9.0\src\system.rs
+
+C:\Users\Vertex Studio\Desktop\Nancy NAS\API-REST\actix\apiplay\target\debug\deps\libactix_rt-d62d9ed7727c45f3.rlib: C:\Users\Vertex\ Studio\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-rt-2.9.0\src\lib.rs C:\Users\Vertex\ Studio\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-rt-2.9.0\src\arbiter.rs C:\Users\Vertex\ Studio\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-rt-2.9.0\src\runtime.rs C:\Users\Vertex\ Studio\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-rt-2.9.0\src\system.rs
+
+C:\Users\Vertex Studio\Desktop\Nancy NAS\API-REST\actix\apiplay\target\debug\deps\actix_rt-d62d9ed7727c45f3.d: C:\Users\Vertex\ Studio\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-rt-2.9.0\src\lib.rs C:\Users\Vertex\ Studio\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-rt-2.9.0\src\arbiter.rs C:\Users\Vertex\ Studio\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-rt-2.9.0\src\runtime.rs C:\Users\Vertex\ Studio\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-rt-2.9.0\src\system.rs
+
+C:\Users\Vertex\ Studio\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-rt-2.9.0\src\lib.rs:
+C:\Users\Vertex\ Studio\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-rt-2.9.0\src\arbiter.rs:
+C:\Users\Vertex\ Studio\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-rt-2.9.0\src\runtime.rs:
+C:\Users\Vertex\ Studio\.cargo\registry\src\index.crates.io-6f17d22bba15001f\actix-rt-2.9.0\src\system.rs:
