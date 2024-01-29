@@ -9,3 +9,8 @@ pub struct Info {
 pub struct CreatePlaylist{
     pub name: String
 }
+
+#[derive(Deserialize)]
+pub struct PartialUpdatePlaylist{
+    pub name : Option<String>,
+}
